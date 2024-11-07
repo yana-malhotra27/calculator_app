@@ -16,15 +16,15 @@ class Button1 extends StatelessWidget {
         //refractor wrap with widget
         elevation: 3, //buttons doesn't look merged with bg so elevated
         color: AppColors.primaryColor,
-        borderRadius: BorderRadius.circular(50),
+        borderRadius: BorderRadius.circular(42),
         child: CircleAvatar(
-            radius: 36,
+            radius: 30,
             backgroundColor: AppColors.secondary2Color,
             child: Text(
               label,
               style:
                   TextStyle(
-                    color: textColor, fontSize: 32, fontWeight: FontWeight.w600), //buttons
+                    color: textColor, fontSize: 28, fontWeight: FontWeight.w600), //buttons
             )),
       ),
     );
